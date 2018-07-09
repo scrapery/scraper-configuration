@@ -1,0 +1,16 @@
+{
+  "name": "scraper-setting",
+  "version": "0.0.0",
+  "description": "Description for ScraperSetting",
+  "private": true,
+  "license": "UNLICENSED",
+  "cacheDirectories": [
+    "node_modules"
+  ],
+  "devDependencies": {
+    "simlife-bot": "5.0.2"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}
