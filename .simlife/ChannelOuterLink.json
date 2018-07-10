@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "configName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorAttr",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "host",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180315115826",
+    "entityTableName": "channel_outer_link",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

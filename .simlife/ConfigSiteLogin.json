@@ -1,0 +1,53 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "domain",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "host",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorAction",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorUsername",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorPassword",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorButtonLogin",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "username",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "password",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "redirectUrl",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180308235438",
+    "entityTableName": "config_site_login",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

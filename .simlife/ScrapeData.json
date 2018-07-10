@@ -1,0 +1,62 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "scrapeDataId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "scrapeId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "domain",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "host",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "rootScrapeUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selector",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "attr",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dataType",
+            "fieldType": "ConfigDataType",
+            "fieldValues": "INTEGER,STRING,DOUBLE,FLOAT,DATE"
+        },
+        {
+            "fieldName": "data",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180422133938",
+    "entityTableName": "scrape_data",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

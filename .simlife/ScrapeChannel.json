@@ -1,0 +1,94 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "configGroup",
+            "otherEntityName": "configGroup",
+            "otherEntityField": "name",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "targetGroup",
+            "otherEntityName": "configGroup",
+            "otherEntityField": "name",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "contentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "totalLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "archiveLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "fetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP"
+        },
+        {
+            "fieldName": "category",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tag",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "categorySlug",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tagSlug",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "countryCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "languageCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "targetQueueChannel",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "channelTotalLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "channelArchiveLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "channelFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP"
+        }
+    ],
+    "changelogDate": "20180403225137",
+    "entityTableName": "scrape_channel",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+
+    "microserviceName": "ScraperSetting"
+}

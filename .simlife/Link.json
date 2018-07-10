@@ -1,0 +1,58 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "scrapeDataId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "scrapeId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "currentLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "scrapeUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "parentUrl",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "scrapeResultId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "scrapeResultPath",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "scrapeREsultContentType",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "crawlStatus",
+            "fieldType": "CrawlStatus",
+            "fieldValues": "SUCCESS,FALSE"
+        },
+        {
+            "fieldName": "internalUrl",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180422133937",
+    "entityTableName": "link",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

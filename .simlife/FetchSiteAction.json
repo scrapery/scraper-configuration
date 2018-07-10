@@ -1,0 +1,59 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "domain",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "host",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "activeLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "selectorAction",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorActionAttr",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "action",
+            "fieldType": "Action",
+            "fieldValues": "CLICK,SCROLL,LOGIN,GET,POST"
+        },
+        {
+            "fieldName": "totalActions",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "seleniumActionGetContent",
+            "fieldType": "SeleniumActionGetContent",
+            "fieldValues": "DONE_ACTION,EACH_ACTION"
+        },
+        {
+            "fieldName": "selectorNextPageUrlsName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorNextPageUrlsNameAttr",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180308235440",
+    "entityTableName": "fetch_site_action",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

@@ -1,0 +1,80 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "mapping",
+            "otherEntityName": "configMapping",
+            "otherEntityField": "name",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "loginAction",
+            "otherEntityName": "configSiteLogin",
+            "otherEntityField": "name",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "totalLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "archiveLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "currentLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "unlimitedLevel",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "fetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "channelId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "category",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tag",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "countryCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "languageCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "docType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        }
+    ],
+    "changelogDate": "20180422133940",
+    "entityTableName": "scrape",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

@@ -1,0 +1,39 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "mapping",
+            "otherEntityName": "configMapping",
+            "otherEntityField": "name",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "host",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "currentLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "expectResultType",
+            "fieldType": "ExpectResultType",
+            "fieldValues": "OBJECT,ARRAY"
+        }
+    ],
+    "changelogDate": "20180312110422",
+    "entityTableName": "config_group",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

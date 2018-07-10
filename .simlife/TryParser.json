@@ -1,0 +1,54 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "userAgent",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "htmlContent",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        },
+        {
+            "fieldName": "parsedContent",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        },
+        {
+            "fieldName": "selector",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "selectorResult",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        },
+        {
+            "fieldName": "fetchEngine",
+            "fieldType": "TryFetchEngine",
+            "fieldValues": "HTTP,SELENIUM,RSS"
+        },
+        {
+            "fieldName": "attributeSelector",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "docType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        }
+    ],
+    "changelogDate": "20180308235441",
+    "entityTableName": "try_parser",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

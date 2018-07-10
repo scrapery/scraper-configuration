@@ -1,0 +1,282 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "outer",
+            "otherEntityName": "channelOuterLink",
+            "otherEntityField": "configName",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "mapping",
+            "otherEntityName": "configMapping",
+            "otherEntityField": "name",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "configGroup",
+            "otherEntityName": "configGroup",
+            "otherEntityField": "name",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "",
+            "relationshipName": "targetGroup",
+            "otherEntityName": "configGroup",
+            "otherEntityField": "name",
+            "ownerSide": true
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "url",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "contentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "schedule",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "scheduleTimeZone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "totalLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "archiveLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "unlimitedLevel",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "fetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "category",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tag",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "categorySlug",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tagSlug",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "countryCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "languageCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "targetQueueChannel",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "topics",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "topicSlugs",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "postType",
+            "fieldType": "PostType",
+            "fieldValues": "ARTICLE,VIDEO,MUSIC,MOVIE,NEWS,AUDIO"
+        },
+        {
+            "fieldName": "rankingCountry",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "channelTotalLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "channelArchiveLevel",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "channelFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "channelRanking",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "channelTargetQueue",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "channelTargetPostType",
+            "fieldType": "PostType",
+            "fieldValues": "ARTICLE,VIDEO,MUSIC,MOVIE,NEWS,AUDIO"
+        },
+        {
+            "fieldName": "channelLevelOneFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "channelLevelTwoFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "channelLevelThreeFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "channelLevelFourFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "channelLevelOneContentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "channelLevelTwoContentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "channelLevelThreeContentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "channelLevelFourContentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "channelAllowExternalUrl",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "channelLogo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "channelSiteName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "logo",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "siteName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "channelType",
+            "fieldType": "ChannelType",
+            "fieldValues": "CHANNEL_FOR_GETTING_CHANNEL,CHANNEL_FOR_GETTING_FEED"
+        },
+        {
+            "fieldName": "levelOneFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "levelTwoFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "levelThreeFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "levelFourFetchEngine",
+            "fieldType": "FetchEngine",
+            "fieldValues": "SELENIUM,HTTP,RSS"
+        },
+        {
+            "fieldName": "levelOneContentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "levelTwoContentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "levelThreeContentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "levelFourContentType",
+            "fieldType": "DocType",
+            "fieldValues": "HTML,XML,JSON"
+        },
+        {
+            "fieldName": "allowExternalUrl",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "targetChannel",
+            "fieldType": "TargetChannel",
+            "fieldValues": "PUBLISHER,CATEGORY"
+        },
+        {
+            "fieldName": "target",
+            "fieldType": "TargetChannel",
+            "fieldValues": "PUBLISHER,CATEGORY"
+        },
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "siteDomain",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "siteUrl",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180326221459",
+    "dto": "no",
+    "service": "serviceImpl",
+    "entityTableName": "channel",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "ScraperSetting"
+}

@@ -1,0 +1,46 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "schedule",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "scheduleTimeZone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "countryCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "channelCategory",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "jsonMeta",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "channelAppType",
+            "fieldType": "ChannelAppType",
+            "fieldValues": "NEWS,VIDEO"
+        },
+        {
+            "fieldName": "jobKey",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180309143212",
+    "entityTableName": "spider_scheduler",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "ScraperSetting"
+}

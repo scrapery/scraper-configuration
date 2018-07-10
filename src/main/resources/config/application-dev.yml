@@ -39,7 +39,7 @@ spring:
         serialization.indent_output: true
     data:
         mongodb:
-            uri: mongodb://localhost:27017
+            uri: mongodb://54.174.79.164:27017
             database: ScraperSetting
         elasticsearch:
             cluster-name:
